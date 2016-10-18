@@ -1,17 +1,27 @@
 {
   "name": "tikva",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "Tikva is a FTV following up system for Indonesian Ministry Trinity Christian Centre.",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index.js | node_modules/bunyan/bin/bunyan -L",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irsan/tikva.git"
+  },
+  "author": "Irsan Jie <irsanjie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irsan/tikva/issues"
+  },
+  "homepage": "https://github.com/irsan/tikva#readme",
   "dependencies": {
-    "body-parser": "~1.15.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "express": "~4.13.4",
-    "jade": "~1.11.0",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0"
+    "bunyan": "^1.8.2",
+    "mongoose": "^4.6.4",
+    "socket.io": "^1.5.0",
+    "socket.io-redis": "^1.1.1",
+    "vasync": "^1.6.4"
   }
 }
