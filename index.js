@@ -25,6 +25,7 @@ io.on('connection', function (socket) {
     log.info("ON CONNECTED");
 
     if(!installed) {
+        log.info("INSTALLATION MODE");
         socket.emit("install", {
             installed : false
         });
