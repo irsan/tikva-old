@@ -99,3 +99,4 @@ fabric.properties
 
 offline/
 public/bower_components/
+resources/installed.json

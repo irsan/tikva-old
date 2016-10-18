@@ -1,0 +1,8 @@
+{
+  "local" : {
+    "mongodb" : "mongodb://mongo/tikva",
+    "redis" : {
+      "url" : "redis://redis"
+    }
+  }
+}
