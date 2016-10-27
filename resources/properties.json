@@ -1,8 +1,19 @@
 {
   "local" : {
+    "aws" : {
+      "s3" : {
+        "accessKeyId" : "AKIAJIKJ44UDQB4N7VMQ",
+        "secretAccessKey" : "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",
+        "region" : "ap-southeast-1",
+        "bucket" : "jie-tikva"
+      }
+    },
     "mongodb" : "mongodb://mongo/tikva",
     "redis" : {
       "url" : "redis://redis"
+    },
+    "wit" : {
+      "key" : "OY5EXRBWAHCMCK2UXQZUZM2FYKMMGWAY"
     }
   }
 }
